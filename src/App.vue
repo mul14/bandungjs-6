@@ -1,23 +1,77 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
+  <div class="container-fluid my-5">
+
+    <div class="row">
+      <aside class="col-3">
+
+        <router-link :to="{ name: 'home' }" class="lead"> <strong>BandungJS #6 - Great Vue.js</strong> </router-link>
+
+        <nav>
+          <!-- Slide -->
+          <router-link :to="{ name: 'what' }" :class="routerLink"> What is Vue.js? </router-link>
+          <router-link :to="{ name: 'history' }" :class="routerLink"> History </router-link>
+          <router-link :to="{ name: 'upcoming' }" :class="routerLink"> Upcoming </router-link>
+          <router-link :to="{ name: 'current' }" :class="routerLink"> Current State </router-link>
+
+          <!-- Demo -->
+          <div class="lead mt-5">Demo</div>
+          <router-link :to="{ name: 'single' }" :class="routerLink"> Single File Component </router-link>
+          <router-link :to="{ name: 'html' }" :class="routerLink"> Html </router-link>
+          <router-link :to="{ name: 'style' }" :class="routerLink"> Style Sheets </router-link>
+          <router-link :to="{ name: 'coffee' }" :class="routerLink"> CoffeeScript </router-link>
+          <router-link :to="{ name: 'jsx' }" :class="routerLink"> JSX </router-link>
+          <router-link :to="{ name: 'data' }" :class="routerLink"> $data </router-link>
+          <router-link :to="{ name: 'lifecycle' }" :class="routerLink"> Life Cycle </router-link>
+          <router-link :to="{ name: 'two' }" :class="routerLink"> Two-way data binding </router-link>
+          <router-link :to="{ name: 'method' }" :class="routerLink"> Event Listener </router-link>
+          <router-link :to="{ name: 'filter' }" :class="routerLink"> Filter </router-link>
+          <router-link :to="{ name: 'computed' }" :class="routerLink"> Computed Properties </router-link>
+          <router-link :to="{ name: 'vuex' }" :class="routerLink"> Vuex </router-link>
+
+        </nav>
+
+      </aside>
+      <div class="col-9">
+        <div style="background: white; border: 1px solid #f0f0f0;" class="p-4">
+          <router-view></router-view>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
+  name: 'App',
+
+  data() {
+    return {
+      routerLink: ['btn', 'btn-outline-secondary', 'btn-block', 'mt-1', 'text-left']
+    }
+  }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+a.lead {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a {
+  border: 1px solid transparent;
+  color: #8c8c8c;
+}
+
+nav a:hover,
+nav a.router-link-active {
+  color: white;
+  background-color: #47b784;
+  border: 1px solid #47b784;
+}
+
+nav {
+  overflow: auto;
+  height: 100vh;
 }
 </style>
