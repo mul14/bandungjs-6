@@ -15,6 +15,7 @@
     <ul class="lead" style="color: #666; line-height: 2.4em;">
       <li>Drop support old browsers</li>
       <li>A lot changes in core libraries</li>
+      <li>New vue-cli 3.0</li>
     </ul>
 
   </div>
