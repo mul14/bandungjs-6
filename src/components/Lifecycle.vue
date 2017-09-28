@@ -3,7 +3,7 @@
     <h1 style="font-weight: lighter; color: #47b784;">component life cycle</h1>
     <hr>
 
-    <img src="/bandungjs-6/static/lifecycle.png" alt="" class="img-fluid">
+    <img src="static/lifecycle.png" alt="" class="img-fluid">
 
   </div>
 </template>

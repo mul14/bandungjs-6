@@ -6,7 +6,7 @@
 
         <router-link :to="{ name: 'home' }" class="lead mb-2 d-block">
           BandungJS #6 - The Great
-          <img src="/bandungjs-6/static/vue-logo.png" alt="" class="img-fluid" width="30">
+          <img src="static/vue-logo.png" alt="" class="img-fluid" width="30">
         </router-link>
 
         <nav>
