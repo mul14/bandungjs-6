@@ -16,11 +16,15 @@
     </div>
 
     <div class="my-3 lead">
-      <span class="text-muted mr-3">Prefix</span> {{ message | prefix('Rp') }}
+      <span class="text-muted mr-3">Prefix</span> {{ message | prefix('Rp ') }}
     </div>
 
     <div class="my-3 lead">
-      <span class="text-muted mr-3">Suffix</span> {{ message | suffix('IDR') }}
+      <span class="text-muted mr-3">Suffix</span> {{ message | suffix(' IDR') }}
+    </div>
+
+    <div class="my-3 lead">
+      <span class="text-muted mr-3">Combination</span> {{ message | lowercase | prefix('Vue ') }}
     </div>
 
   </div>
