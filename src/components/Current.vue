@@ -2,14 +2,42 @@
   <div class="lead">
     <h1 style="font-weight: lighter; color: #47b784;">current state</h1>
     <hr>
-    <img src="/static/trends.png" alt="" class="img-fluid">
 
-    <h2 class="mt-5" style="font-weight: lighter; color: #47b784;">github</h2>
+    <div style="padding: 600px 0;">
+      <h2 class="mt-5" style="font-weight: lighter; color: #47b784;">google trends</h2>
+      <img src="/static/trends.png" alt="" class="img-fluid">
+    </div>
 
-    <div><img src="/static/github-stars.png" alt="" class="img-fluid"></div>
-    <div><img src="/static/github-trends.png" alt="" class="img-fluid"></div>
+    <div style="padding: 600px 0;">
+      <h2 class="mb-5" style="font-weight: lighter; color: #47b784;">github</h2>
+      <div><img src="/static/github-stars.png" alt="" class="img-fluid"></div>
+      <div><img src="/static/github-trends.png" alt="" class="img-fluid"></div>
+    </div>
 
-    <h2 class="mt-5" style="font-weight: lighter; color: #47b784;">who use vue?</h2>
-    <div>Blibli, Jakmall, GitLab, Alibaba, <a href="https://newsfeed.fb.com/" target="_blank">Facebook</a>, etc.</div>
+    <div style="padding: 600px 0;">
+
+      <h2 class="mt-5" style="font-weight: lighter; color: #47b784;">npm</h2>
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 mb-5"><img src="/static/npm.png" alt="" class="img-fluid"></div>
+        <div class="col-4"></div>
+        <div class="col-12">
+          <h2 class="text-center">~800K / month</h2>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="padding: 600px 0;">
+      <h2 class="mt-5" style="font-weight: lighter; color: #47b784;">weex</h2>
+      <div><img src="/static/weex.png" alt="" class="img-fluid"></div>
+    </div>
+
+    <div style="padding: 600px 0;">
+      <h2 class="mt-5" style="font-weight: lighter; color: #47b784;">who use vue?</h2>
+      <div>Blibli, Jakmall, GitLab, Alibaba,
+        <a href="https://newsfeed.fb.com/" target="_blank">Facebook</a>, etc.</div>
+    </div>
+
   </div>
 </template>

@@ -4,7 +4,10 @@
     <div class="row">
       <aside class="col-3">
 
-        <router-link :to="{ name: 'home' }" class="lead"> <strong>BandungJS #6 - Great Vue.js</strong> </router-link>
+        <router-link :to="{ name: 'home' }" class="lead mb-2 d-block">
+          BandungJS #6 - The Great
+          <img src="/static/vue-logo.png" alt="" class="img-fluid" width="30">
+        </router-link>
 
         <nav>
           <!-- Slide -->
