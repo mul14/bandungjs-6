@@ -30,6 +30,5 @@ export default new Router({
     { path: '/watcher', name: 'watcher', component: require('@/components/Watcher').default },
     { path: '/deploy', name: 'deploy', component: require('@/components/Deploy').default },
     { path: '/props', name: 'props', component: require('@/components/Props').default },
-    { path: '/bus', name: 'bus', component: require('@/components/Bus').default },
   ]
 })
