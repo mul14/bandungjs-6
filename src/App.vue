@@ -29,6 +29,7 @@
           <router-link :to="{ name: 'method' }" :class="routerLink"> Event Listener </router-link>
           <router-link :to="{ name: 'filter' }" :class="routerLink"> Filter </router-link>
           <router-link :to="{ name: 'computed' }" :class="routerLink"> Computed Properties </router-link>
+          <router-link :to="{ name: 'watcher' }" :class="routerLink"> Watcher </router-link>
           <router-link :to="{ name: 'vuex' }" :class="routerLink"> Vuex </router-link>
 
         </nav>
