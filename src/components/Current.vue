@@ -3,6 +3,29 @@
     <h1 style="font-weight: lighter; color: #47b784;">current state</h1>
     <hr>
 
+    <div class="mt-5">
+      <h2 class="my-5" style="font-weight: lighter; color: #47b784;">tools</h2>
+      <div class="row">
+        <dl class="col-6">
+          <dt>Official</dt>
+          <dd>vue-cli</dd>
+          <dd>vue-loader</dd>
+          <dd>vue-router</dd>
+          <dd>vuex</dd>
+        </dl>
+        <dl class="col-6">
+          <dt>Community</dt>
+          <dd>Nuxt (Server Side Rendering)</dd>
+          <dd>Quasar Framework</dd>
+          <dd>Element</dd>
+          <dd>iView</dd>
+          <dd>Muse-UI</dd>
+          <dd>Vux</dd>
+          <dd>Vuetify</dd>
+        </dl>
+      </div>
+    </div>
+
     <div style="padding: 600px 0;">
       <h2 class="mt-5" style="font-weight: lighter; color: #47b784;">google trends</h2>
       <img src="/static/trends.png" alt="" class="img-fluid">
