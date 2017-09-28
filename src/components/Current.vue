@@ -29,6 +29,14 @@
     </div>
 
     <div style="padding: 600px 0;">
+      <h2 class="mt-5" style="font-weight: lighter; color: #47b784;">Vue Chrome Developer Tools</h2>
+      <div class="text-center">
+        <div><img src="/static/vue-devtools.png" alt="" class="img-fluid"></div>
+        <h2>~273K Active Users</h2>
+      </div>
+    </div>
+
+    <div style="padding: 600px 0;">
       <h2 class="mt-5" style="font-weight: lighter; color: #47b784;">weex</h2>
       <div><img src="/static/weex.png" alt="" class="img-fluid"></div>
     </div>
