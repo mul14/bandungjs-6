@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid my-5">
+  <div class="container-fluid">
 
     <div class="row">
       <aside class="col-3">
@@ -31,14 +31,13 @@
           <router-link :to="{ name: 'computed' }" :class="routerLink"> Computed Properties </router-link>
           <router-link :to="{ name: 'watcher' }" :class="routerLink"> Watcher </router-link>
           <router-link :to="{ name: 'props' }" :class="routerLink"> Props </router-link>
-          <router-link :to="{ name: 'bus' }" :class="routerLink"> Bus </router-link>
           <router-link :to="{ name: 'vuex' }" :class="routerLink"> Vuex </router-link>
           <router-link :to="{ name: 'deploy' }" :class="routerLink"> Deploy </router-link>
 
         </nav>
 
       </aside>
-      <div class="col-9">
+      <div class="col-9 mt-5">
         <div style="background: white; border: 1px solid #f0f0f0;" class="p-4">
           <router-view></router-view>
         </div>
