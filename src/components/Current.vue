@@ -37,14 +37,54 @@
     </div>
 
     <div style="padding: 600px 0;">
+      <h2 class="mt-5" style="font-weight: lighter; color: #47b784;">google i/o 2017</h2>
+      <div><img src="/static/google-io.jpg" alt="" class="img-fluid"></div>
+    </div>
+
+    <div style="padding: 600px 0;">
       <h2 class="mt-5" style="font-weight: lighter; color: #47b784;">weex</h2>
       <div><img src="/static/weex.png" alt="" class="img-fluid"></div>
     </div>
 
     <div style="padding: 600px 0;">
       <h2 class="mt-5" style="font-weight: lighter; color: #47b784;">who use vue?</h2>
-      <div>Blibli, Jakmall, GitLab, Alibaba,
-        <a href="https://newsfeed.fb.com/" target="_blank">Facebook</a>, etc.</div>
+      <div class="row">
+        <div class="col-4 p-5">
+          <img src="/static/adobe.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-4 p-5">
+          <img src="/static/alibaba.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-4 p-5">
+          <img src="/static/baidu.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-4 p-5">
+          <img src="/static/behance.svg" alt="" class="img-fluid">
+        </div>
+        <div class="col-4 p-5">
+          <img src="/static/blibli.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-4 p-5">
+          <img src="/static/codeship.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-4 p-5">
+          <img src="/static/dji.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-4 p-5">
+          <a href="https://newsfeed.fb.com/" target="_blank">
+            <img src="/static/facebook.svg" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-4 p-5">
+          <img src="/static/gitlab.svg" alt="" class="img-fluid">
+        </div>
+        <div class="col-4 p-5">
+          <img src="/static/jakmall.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-4 p-5">
+          <img src="/static/nbc.png" alt="" class="img-fluid">
+        </div>
+      </div>
     </div>
 
   </div>
