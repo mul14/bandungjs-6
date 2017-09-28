@@ -30,6 +30,8 @@
           <router-link :to="{ name: 'filter' }" :class="routerLink"> Filter </router-link>
           <router-link :to="{ name: 'computed' }" :class="routerLink"> Computed Properties </router-link>
           <router-link :to="{ name: 'watcher' }" :class="routerLink"> Watcher </router-link>
+          <router-link :to="{ name: 'props' }" :class="routerLink"> Props </router-link>
+          <router-link :to="{ name: 'bus' }" :class="routerLink"> Bus </router-link>
           <router-link :to="{ name: 'vuex' }" :class="routerLink"> Vuex </router-link>
           <router-link :to="{ name: 'deploy' }" :class="routerLink"> Deploy </router-link>
 
