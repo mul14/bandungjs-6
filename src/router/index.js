@@ -28,5 +28,6 @@ export default new Router({
     { path: '/jsx', name: 'jsx', component: Jsx },
     { path: '/coffee', name: 'coffee', component: require('@/components/Coffee').default },
     { path: '/watcher', name: 'watcher', component: require('@/components/Watcher').default },
+    { path: '/deploy', name: 'deploy', component: require('@/components/Deploy').default },
   ]
 })
