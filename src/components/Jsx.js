@@ -9,9 +9,9 @@ export default {
 
         <div class="lead text-muted">Check the <code>src/components/Jsx.vue</code> file</div>
 
-        <h2 className="lead" style="font-weight: lighter;">Let's make JavaScript dirty!</h2>
+        <h2 class="display-1">Let's make JavaScript dirty!!</h2>
 
-        <button onClick={this.clickHandler}>Click me!</button>
+        <button onClick={this.clickHandler} class="btn btn-outline-secondary">Click me!</button>
       </div>
     )
   },
