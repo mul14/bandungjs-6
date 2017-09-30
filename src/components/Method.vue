@@ -12,7 +12,9 @@
         type="text"
         @keyup.enter="pressEnter"
         @keyup.space="pressSpace"
-        class="form-control">
+        class="form-control"
+        placeholder="This input will listen for space and enter key"
+      />
     </div>
 
     <ul>
