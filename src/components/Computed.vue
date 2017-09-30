@@ -3,6 +3,8 @@
     <h1 style="font-weight: lighter; color: #47b784;">computed properties</h1>
     <hr>
 
+    <div class="lead text-muted">Check the <code>src/components/Computed.vue</code> file</div>
+
     <div class="form-group">
       <input type="text" v-model="search" class="form-control" placeholder="Type something filter the list">
     </div>

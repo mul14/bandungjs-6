@@ -3,6 +3,8 @@
     <h1 style="font-weight: lighter; color: #47b784;">filter</h1>
     <hr>
 
+    <div class="lead text-muted">Check the <code>src/components/Filter.vue</code> file</div>
+
     <div class="form-group">
       <input type="text" v-model="message" class="form-control" placeholder="Type a message">
     </div>

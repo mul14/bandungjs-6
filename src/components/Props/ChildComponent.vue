@@ -1,11 +1,13 @@
 <template>
   <div style="padding: 40px; background: #f0f0f0;">
     <h3 style="font-weight: lighter; color: #666;">Hello I am a ChildComponent</h3>
-    <ul>
-      <li v-for="movie in list" :key="movie">
+
+    <dl>
+      <dt>I got this data from my parent</dt>
+      <dd v-for="movie in list" :key="movie">
         {{ movie }}
-      </li>
-    </ul>
+      </dd>
+    </dl>
 
     <div>
       <div class="input-group">

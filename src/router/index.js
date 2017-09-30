@@ -19,7 +19,7 @@ export default new Router({
     { path: '/html', name: 'html', component: require('@/components/Html').default },
     { path: '/data', name: 'data', component: require('@/components/Data').default },
     { path: '/lifecycle', name: 'lifecycle', component: require('@/components/Lifecycle').default },
-    { path: '/two', name: 'two', component: require('@/components/Two').default },
+    { path: '/form', name: 'form', component: require('@/components/Form').default },
     { path: '/method', name: 'method', component: require('@/components/Method').default },
     { path: '/filter', name: 'filter', component: require('@/components/Filter').default },
     { path: '/computed', name: 'computed', component: require('@/components/Computed').default },

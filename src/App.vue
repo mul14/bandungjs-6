@@ -25,7 +25,7 @@
           <router-link :to="{ name: 'jsx' }" :class="routerLink"> JSX </router-link>
           <router-link :to="{ name: 'data' }" :class="routerLink"> $data </router-link>
           <router-link :to="{ name: 'lifecycle' }" :class="routerLink"> Life Cycle </router-link>
-          <router-link :to="{ name: 'two' }" :class="routerLink"> Two-way data binding </router-link>
+          <router-link :to="{ name: 'form' }" :class="routerLink"> Two-way data binding </router-link>
           <router-link :to="{ name: 'method' }" :class="routerLink"> Event Listener </router-link>
           <router-link :to="{ name: 'filter' }" :class="routerLink"> Filter </router-link>
           <router-link :to="{ name: 'computed' }" :class="routerLink"> Computed Properties </router-link>

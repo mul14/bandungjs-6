@@ -3,6 +3,8 @@
     <h1 style="font-weight: lighter; color: #47b784;">two way data binding</h1>
     <hr>
 
+    <div class="lead text-muted">Check the <code>src/components/Form.vue</code> file</div>
+
     <div class="row">
       <div class="col-6">
         <div class="form-group">
@@ -37,8 +39,11 @@
           </label>
         </div>
         <div class="form-group">
-          <button @click="show = !show" class="btn btn-success">Show toggle</button>
-          <span v-if="show" class="lead ml-4">Itu itu keren kan?</span>
+          <button @click="show = !show" class="btn btn-success">
+            <span v-text="show ? 'Hide' : 'Show'">Show</span>
+            a message
+           </button>
+          <span v-if="show" class="lead ml-4">Gimana? Keren kan?</span>
         </div>
       </div>
       <div class="col-6"><pre>{{ $data }}</pre></div>

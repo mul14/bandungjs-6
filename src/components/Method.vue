@@ -3,6 +3,8 @@
     <h1 class="mb-5" style="font-weight: lighter; color: #47b784;">event listener</h1>
     <hr>
 
+    <div class="lead text-muted">Check the <code>src/components/Method.vue</code> file</div>
+
     <div class="my-5">
       <button @click="clickHandler" class="btn btn-outline-success">Click me</button>
     </div>

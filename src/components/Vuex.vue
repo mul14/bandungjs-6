@@ -3,6 +3,11 @@
     <h1 style="font-weight: lighter; color: #47b784;">vuex</h1>
     <hr>
 
+    <div class="lead text-muted">Check the <code>src/components/Vuex.vue</code> file</div>
+
+    <div class="mb-5 text-muted">
+      Open Vue Developer Tools, choose Vuex tab.
+    </div>
 
     <h2 style="font-weight: lighter; color: #47b784;">increment/decrement</h2>
     <div class="my-5">

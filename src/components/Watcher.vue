@@ -3,7 +3,12 @@
     <h1 class="mb-3" style="font-weight: lighter; color: #47b784;">watcher</h1>
     <hr>
 
-    <input type="text" class="form-control" v-model="message" placeholder="Type a message and then check the dev console">
+    <div class="lead text-muted">Check the <code>src/components/Watcher.vue</code> file</div>
+
+    <div class="form-group">
+      <input type="text" class="form-control" v-model="message" placeholder="Type a message">
+      <div class="text-muted">Open Developer Console, watch the new value and old value.</div>
+    </div>
   </div>
 </template>
 
