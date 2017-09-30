@@ -4,7 +4,7 @@
     <hr>
 
     <div class="form-group">
-      <input type="text" v-model="search" class="form-control" placeholder="Type a search">
+      <input type="text" v-model="search" class="form-control" placeholder="Type something filter the list">
     </div>
 
     <ul>
@@ -29,6 +29,10 @@ export default {
         { name: 'Durian' },
         { name: 'Rambutan' },
         { name: 'Timun' },
+        { name: 'Pisang' },
+        { name: 'Nangka' },
+        { name: 'Pepaya' },
+        { name: 'Semangka' },
       ]
     }
   },
